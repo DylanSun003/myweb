@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600&family=Open+Sans&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <style>
+        .form-group-appointment {
+            display:flex; 
+            flex-direction: row; 
+            align-items:baseline;
+        }
+        form {
+            width: 400px;
+        }
+        .form-group {
+            margin-bottom: 30px;
+        }
+    </style>
+
+</head>
+<body>
+    <ul class="nav-bar">
+        <li><a href="index.html">Main</a></li>
+        <li><a href="about.html">About me</a></li>
+        <li><a href="https://google.com" target="_blank">Google</a></li>
+        <li><a href="mailto:zhenrong003@g.ucla.edu">Email me</a></li>
+        <li><a href="table.html">Table content</a></li>
+        <li><a href="article.html">Article</a></li>
+        <li style="flex:auto;"><a href="form.html">Form</a></li>
+        <li><a href="login-page.html">Login in</a></li>
+    </ul>
+    <div>
+        <form action="https://formspree.io/f/mknkzrvz" method="POST">
+            <div class="form-group-appointment">
+                <p style="margin-right: 20px;">With Appoitment?</p>
+                <label for="Yes-Appoitment" style="margin-right: 3px;">Yes</label>
+                <input type="radio", id="Yes-Appoitment", name="Yes-Appoitment" style="margin-right: 20px;">
+                <label for="Not-Appoitment" style="margin-right: 3px;">No</label>
+                <input type="radio", id="Not-Appoitment", name="Not-Appoitment">
+            </div>
+            <div class="form-group">
+                <label for="date">Date</label>
+                <input type="date", id="date", name="date" required>
+            </div>
+            <div class="form-group">
+                <label for="number-people">Number of People</label>
+                <input type="number", id="number-people", name="number-people" required>
+            </div>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text", id="name", name="Name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text", id="email", name="Email" required>
+            </div>  
+            <div class="form-group">
+                <button type="submit">Submit</button> 
+                <button type="reset">Reset</button>
+            </div>       
+                    
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,500 @@
+/* font import */
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Cormorant+Garamond:wght@300&family=Playfair+Display&family=Quicksand:wght@300&family=Secular+One&display=swap");
+
+/* navbar css */
+.navbar-nav.container-fluid {
+  padding: 5px 0px;
+}
+.nav-link {
+  width: 100px;
+  color: white;
+  font-family: "Playfair Display", serif;
+}
+.nav-link:last-child {
+  margin-right: 30px;
+}
+.logo {
+  margin-left: 20px;
+}
+
+.nav-link:hover {
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 990px) {
+  .nav-link {
+    width: 100vw;
+    text-align: center;
+  }
+  .nav-link:hover {
+    border: 1px black solid;
+  }
+  .logo {
+    margin-left: 0px;
+  }
+  .nav-link:last-child {
+    margin-right: 0px;
+  }
+}
+
+/* banner css */
+.hide {
+  display: none;
+}
+
+.banner-img {
+  opacity: 1;
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.banner-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-container > div {
+  align-items: center;
+  position: absolute;
+  font-size: 100px;
+  font-family: "Playfair Display", serif;
+}
+
+.title {
+  font-size: 6vw;
+  color: white;
+}
+.subtitle {
+  font-size: 2vw;
+  color: white;
+  text-align: center;
+  font-family: "Cormorant Garamond", serif;
+  font-style: italic;
+}
+
+/* project grid */
+.grid {
+  margin-top: 100px;
+}
+.row.row-cols-1.row-cols-md-3.g-4 {
+  justify-content: center;
+  margin: 0px;
+}
+.grid > p {
+  font-size: 1.5vw;
+  margin-bottom: 30px;
+  text-align: center;
+  position: relative;
+  font-family: "Playfair Display", serif;
+}
+
+.grid > P::before,
+.grid > P::after {
+  display: inline-block;
+  content: "";
+  border-top: 1px solid rgb(158, 158, 158);
+  width: 20%;
+  margin: 0px 20px;
+  transform: translateY(-4px);
+}
+
+.row > .col {
+  width: 350px;
+}
+
+.card-img-top {
+  width: 100%;
+  object-fit: cover;
+  height: 200px;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: rgb(43, 43, 43);
+}
+
+.nav-item:hover {
+  color: rgb(43, 43, 43);
+}
+
+/* tailBar */
+.up-icon {
+  height: 50px;
+  color: rgb(255, 255, 255);
+}
+.nav-tail-item {
+  text-decoration: none;
+  color: rgb(119, 119, 119);
+}
+
+.tail.navbar-nav.container-fluid {
+  height: 100px;
+  justify-content: center;
+}
+
+.tail {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #f5f5f5;
+  height: 180px;
+  align-items: center;
+  box-shadow: inset 0px 3px 6px 0px #ececec;
+}
+
+.top {
+  position: sticky;
+  transform: translateY(-70%);
+  height: 70px;
+  transition: transform 1s;
+}
+.top:hover {
+  transform: translateY(-80%);
+  transition: transform 1s;
+}
+
+.github-logo {
+  width: 25px;
+  margin: 5px 5px;
+}
+
+.logo-block {
+  display: flex;
+  justify-content: center;
+}
+/* card */
+.card {
+  transition: box-shadow 1s;
+}
+.card:hover {
+  box-shadow: 0px 10px 10px rgb(177, 177, 177);
+  transition: box-shadow 1s;
+}
+
+/* about-me-page */
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@900&display=swap");
+
+header {
+  height: 200vh;
+}
+
+.info-person > p {
+  line-height: 28px;
+  font-size: 20px;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.info-person > h2 {
+  margin-top: 70px;
+  margin-bottom: 30px;
+  font-family: "Playfair Display", serif;
+  /* font-weight: bolder; */
+}
+
+.containerBanner {
+  /* hide fixed overflow contents */
+  clip: rect(0, auto, auto, 0);
+
+  /* does not work if overflow = visible */
+  overflow: hidden;
+
+  /* only works with absolute positioning */
+  position: absolute;
+
+  /* Make sure containerBanners are full-width and height */
+  height: 100vh;
+  left: 0;
+  width: 100%;
+
+  /* safari hack */
+  -webkit-mask-image: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+}
+
+.containerBanner_solid {
+  background: white;
+}
+
+.title_wrapper {
+  position: fixed;
+  display: block;
+  margin: auto;
+  width: 100%;
+  /* center the text wrapper vertically */
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.title_wrapper h1 {
+  text-align: center;
+  font-size: 64px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  /* font-weight: 900; */
+}
+
+.containerBanner_solid .title_wrapper h1 {
+  /* the text background */
+  background: url(/src/image/self1.jpeg);
+  background-size: 100vw auto;
+  background-position: center;
+
+  /* clip the text is possible */
+  /* text-fill-color: transparent; */
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  /* fallback text color */
+  color: black;
+}
+
+.containerBanner_image {
+  /* Grab a free image from unsplash */
+  background-image: url(/src/image/self1.jpeg);
+  background-size: 100vw auto;
+  background-position: center;
+  background-attachment: fixed;
+
+  /* position the second containerBanner below the first containerBanner */
+  top: 100vh;
+}
+
+.containerBanner_image .title_wrapper h1 {
+  color: white;
+}
+
+section {
+  min-height: 100vh;
+  padding: 2em;
+  margin: auto;
+  max-width: 800px;
+}
+
+section h2 {
+  font-family: "Fraunces", serif;
+}
+
+section p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+/* PorBanner css */
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700);
+
+.bg-Frame {
+  height: 500px;
+  overflow: hidden;
+  align-items: center;
+}
+
+.bg > h1 {
+  color: rgb(255, 255, 255);
+  font-size: 3.5vw;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.bg {
+  display: flex;
+  place-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: url("../image/pawel-czerwinski-2uGGR0cr8sw.jpg") no-repeat 50% 40%;
+  background-size: cover;
+  opacity: 0.95;
+  transition: transform 0.5s;
+}
+
+.logo-cluster > img {
+  height: 30px;
+  margin: 10px;
+}
+.jslogo1 {
+  margin-right: -10px;
+}
+
+/* project-card css */
+.project-card {
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  background-size: cover;
+  background-image: linear-gradient(
+    to top rgba(255, 255, 255, 0.164),
+    rgba(252, 32, 32, 0.164)
+  );
+}
+
+.project-card:hover {
+  background-repeat: no-repeat;
+  background-size: auto 110%;
+  transition: transform 1s;
+}
+
+.project-card > .btn {
+  font-size: 12px;
+  align-self: baseline;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.project-card:hover > .btn {
+  color: rgb(219, 161, 54);
+  background-color: white;
+}
+
+.card-title {
+  font-size: 22px;
+  align-self: baseline;
+  margin-left: 20px;
+  margin-bottom: 0px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+.card-text {
+  font-family: "Playfair Display", serif;
+  font-size: 15px;
+  height: 70px;
+  overflow: hidden;
+}
+
+.card-t {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.project-card > p {
+  color: white;
+}
+
+.btn {
+  border: 2px white solid;
+}
+
+.ifo-porshow {
+  text-align: center;
+  font-size: 20px;
+  color: black;
+  font-family: "Playfair Display", serif;
+}
+
+/* detail page */
+.currentP {
+  width: 50vw;
+  max-height: 600px;
+  max-width: max-content;
+}
+
+.sm-img {
+  width: 25vw;
+  margin-bottom: 20px;
+  min-width: 50px;
+  max-width: 210px;
+}
+
+.sm-img:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.parent {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  font-size: 3vmin;
+  height: 750px;
+}
+
+.div1 {
+  margin-left: 30px;
+  grid-area: 1 / 1 / 3 / 2;
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+}
+
+.div2 {
+  grid-area: 1 / 2 / 5 / 5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 105px;
+  height: max-content;
+  width: 80%;
+  position: absolute;
+  left: 11%;
+}
+
+.div3 {
+  position: relative;
+  right: 20px;
+  grid-area: 1 / 5 / 3 / 6;
+}
+
+.div1 > h1,
+.div3 > h3 {
+  font-family: "Playfair Display", serif;
+}
+
+.dvi3 > h3 {
+  width: max-content;
+}
+
+.div1 > p {
+  font-family: "Cormorant Garamond", serif;
+}
+
+.div2 > p {
+  margin-top: 30px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 20px;
+  width: 65%;
+}
+
+@media screen and (max-width: 990px) {
+  .parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+  }
+  .div2 {
+    margin-top: 30px;
+    position: initial;
+  }
+  .currentP {
+    align-self: center;
+  }
+
+  .div2 > p {
+    margin-top: 10px;
+    /* width: 80vw; */
+  }
+
+  .div1 {
+    align-items: center;
+    margin: 0px;
+  }
+  .div3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    left: 0px;
+  }
+}

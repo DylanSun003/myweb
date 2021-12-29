@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 1.6rem;
+            height: 100vh;
+        }
+        .main {
+            background-color: #f5f5f5;
+            height: 100vh;
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        p:first-child{
+            margin-top: 200px;
+            font-weight: bolder;
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+        }
+
+        p:last-child{
+            color: #6c757d;
+            margin-top: 15px;
+            margin-bottom: 60px;
+            font-size: 1rem;
+        }
+
+        .form-group {
+            margin: 7px;
+        }
+
+        input[type="email"],
+        input[type="password"] {
+            height: 40px;
+            width: 290px;
+            padding-left: 10px;
+            font-size: 1rem;
+            border:1px solid lightgray;
+            border-radius: 5px;
+        }
+
+        input[type="email"]:hover,
+        input[type="password"]:hover {
+            border:1px solid lightskyblue;
+        }
+
+        input[type="email"]:focus,
+        input[type="password"]:focus{
+            border: 1px solid #86b7fe;
+            box-shadow: 0 0 0 5px #b9d3fa;
+            outline: 0;
+            transition: border .15s, box-shadow .3s;
+        }
+
+
+        #checkbox{
+            margin: 8px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            font-size: 1rem;
+        }
+
+        #sign_in_button {
+            background-color: #0d6efd;
+            color: white;
+            border: 0px;
+            border-radius: 25px;
+            height: 45px;
+            width: 300px;
+            font-size:1rem;
+            cursor: pointer;
+        }
+
+        #sign_in_button:focus {
+            background-color: lightslategray;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <p>Please sign in</p>
+        <div class="form-group">
+            <label for=""></label>
+            <input type="email" id="email" name="email" placeholder="Email address">
+        </div>
+        <div class="form-group">
+            <input type="password" id="password" name="password" placeholder="Password">
+        </div>
+        <div class="form-group" id="checkbox">
+            <input type="checkbox" id="remember_me">
+            <label for="remember_me">Remember me</label>
+        </div>
+        <div class="form-group">
+            <button type="submit" id="sign_in_button">Sign in</button>
+        </div>
+        </form>
+        <p>Copyright <span>&copy</span> 2020</p>
+    </div>
+</body>
+</html>
