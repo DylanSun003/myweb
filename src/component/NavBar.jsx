@@ -1,6 +1,6 @@
-import React, { Component } from "react";
-import { NavLink } from "react-router-dom";
-import logo from "../image/Picturelogo.png";
+import React, {Component} from "react";
+import {NavLink} from "react-router-dom";
+import logo from "../image/utils/Picturelogo.png";
 import "../css/styles.css";
 import Fade from "react-reveal/Fade";
 

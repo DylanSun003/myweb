@@ -1,5 +1,5 @@
 import React from "react";
-import bannerImg from "../image/pawel-czerwinski-G6ez-Kt1XOs.jpg";
+import bannerImg from "../image/utils/pawel-czerwinski-G6ez-Kt1XOs.jpg";
 import Fade from "react-reveal/Fade";
 
 class Banner extends React.Component {

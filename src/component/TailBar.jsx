@@ -1,9 +1,9 @@
 import React, {Component} from "react";
 import {NavLink} from "react-router-dom";
-import github from "../image/github.png";
-import linkin from "../image/linkin.png";
-import facebook from "../image/facebook.png";
-import top from "../image/halfpic.png";
+import github from "../image/utils/github.png";
+import linkin from "../image/utils/linkin.png";
+import facebook from "../image/utils/facebook.png";
+import top from "../image/utils/halfpic.png";
 
 import "../css/styles.css";
 
