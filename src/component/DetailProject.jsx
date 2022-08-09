@@ -107,7 +107,7 @@ let projects = [
       imgArray: SVAProject,
       softwareUsed: ["Java", "JavaFX"],
       description:
-        "A Sorting Visualizer Java project that was developed during my study at college when I was a teaching assistant in a data structure and algorithm class. This project with animation aided to help students in my class to visualize some common sorting algorithms such as quick sort, Merge sort, and Bubble sort, etc so that to solidify their understanding of each sorting and how they work.",
+        "With animation and GUI design built with JavaFx platform aided to help students to visualize some common sorting algorithms such as quick sort, Merge sort, and Bubble sort, etc, to solidify their understanding of the sorting technique and how they work.",
       smallText: "Visualizing how sorting algorithm works",
     },
   },
