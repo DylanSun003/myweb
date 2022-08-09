@@ -1,4 +1,4 @@
-import React, { PureComponent } from "react";
+import React from "react";
 import NavBar from "./component/NavBar";
 import DetailProject from "./component/DetailProject";
 import TailBar from "./component/TailBar";
@@ -29,10 +29,7 @@ class DetailPage extends React.Component {
     return (
       <React.Fragment>
         <NavBar />
-        <DetailProject
-          projectTitle={this.state.project.name}
-          imgUrl={this.state.imgUrl}
-        />
+        <DetailProject projectTitle={this.state.project.name} imgUrl={this.state.imgUrl} />
         <TailBar />
       </React.Fragment>
     );
