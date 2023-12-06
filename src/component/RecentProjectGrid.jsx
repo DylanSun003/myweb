@@ -4,12 +4,19 @@ import Fade from "react-reveal/Fade";
 import gameImg from "../image/projectImg/game/game1.png";
 import carImg from "../image/projectImg/car project/car.jpeg";
 import movieImg from "../image/projectImg/movie website/web1.png";
+import reddlabImg from "../image/projectImg/reddlab/reddlab1.jpg";
 
 let imgArray = [
+  // {
+  //   "Guardians-of-the-Galaxy": {
+  //     img: gameImg,
+  //     dec: "Built by Python language with Pygame libary. The flying spaceship can shoot and move to hit the fallen aerolite. When an aerolite hitted by the missile, there are opportunity to get shell and extra missles for couple seconds.",
+  //   },
+  // },
   {
-    "Guardians-of-the-Galaxy": {
-      img: gameImg,
-      dec: "Built by Python language with Pygame libary. The flying spaceship can shoot and move to hit the fallen aerolite. When an aerolite hitted by the missile, there are opportunity to get shell and extra missles for couple seconds.",
+    "REDD Labs Web": {
+      img: reddlabImg,
+      dec: "Orchestrated and engineered a dynamic website that showcases RedD Lab's strategic vision and milestones, effectively establishing the company's digital presence. Leveraged a modern tech stack including JavaScript, React, HTML, CSS, and Node.js to create an engaging and responsive online platform.",
     },
   },
   {

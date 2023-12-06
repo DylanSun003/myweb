@@ -11,6 +11,9 @@ import pythonlogo from "../image/aboutMe/pythonlogo.png";
 import sklearnLogo from "../image/aboutMe/sklearnlogo.png";
 import javaLogo from "../image/aboutMe/javalogo.png";
 import Clogo from "../image/aboutMe/c-logo.png";
+import scalaLogo from "../image/aboutMe/scalaLogo.png";
+import sparkLogo from "../image/aboutMe/ApacheSparkLogo.png";
+
 
 class AboutBanner extends React.Component {
   render() {
@@ -36,15 +39,11 @@ class AboutBanner extends React.Component {
               responsible and good at communicating with others. I love teamworking with other.
             </p>
             <h2>Educational Background</h2>
-            <p>
-              During almost 3 years study in community college, I finally transferred to my dream school, UCLA. For me, having the chance to study in
-              one of the top schools worldwide is another important journey to pursue higher education, and gain knowledge and exprience that helps to
-              broaden my vision. Due to curiosity about Machine Learning, Web Application, in one of the summer, I tried to self study ML and Web App.
-              Later, I was deeply attracted by the beauty of these fields because they are so powerful so that people can use the technology to
-              predict the future and unknown based on the "history" and show the result with UI on web application. Therefore, once I transferred to
-              UCLA, I was eager to know more about these fields, so I took more data science courses and web development courses and hope to get a
-              chance to work in the industry in the future career.
-            </p>
+            <p>After three fulfilling years at community college, I earned the opportunity to transfer to UCLA, a university I had long admired. 
+              This transition marked a significant step in my educational journey, offering a chance to immerse myself in a rigorous academic environment and expand my horizons. 
+              Driven by an innate curiosity, I delved into Machine Learning and Web Application development during a summer break, captivated by their profound capabilities. 
+              The prospect of harnessing technology to draw insights from past data and vividly present them through web interfaces was thrilling. 
+              At UCLA, my enthusiasm for these innovative fields grew. I pursued a focused curriculum in data science and web development, keen to deepen my understanding and prepare for a future where I could contribute to the industry with these cutting-edge tools.</p>
             <h2>Technology I Use</h2>
             <div className="logo-cluster">
               <img className="jslogo1" src={jsLogo} alt="a" />
@@ -52,13 +51,15 @@ class AboutBanner extends React.Component {
               <img className="jslogo" src={cssLogo} alt="c" />
               <img src={nodejsLogo} alt="d" />
               <img src={reactlogo} alt="e" />
-
               <img src={mongoDBLogo} alt="f" />
               <img src={mysqlLogo} alt="g" />
               <img src={pythonlogo} alt="h" />
               <img src={sklearnLogo} alt="i" />
               <img src={javaLogo} alt="j" />
               <img src={Clogo} alt="k" />
+              <img src={scalaLogo} alt="l" />
+              <img src={sparkLogo} alt="m" />
+
             </div>
           </section>
         </Fade>

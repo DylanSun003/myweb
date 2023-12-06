@@ -6,6 +6,7 @@ import movieImg from "../image/projectImg/movie website/web1.png";
 import recipeImg from "../image/projectImg/recepit/rec1.png";
 import mosImg from "../image/projectImg/moshify/mos1.png";
 import savImg from "../image/projectImg/Sorting Algorithm Visualizer/sav.png";
+import reddlabImg from "../image/projectImg/reddlab/reddlab1.jpg";
 
 let imgArray = [
   {"Guardians-of-the-Galaxy": gameImg},
@@ -14,6 +15,7 @@ let imgArray = [
   {"Recipe App": recipeImg},
   {"Moshify App": mosImg},
   {"Sorting Algorithm Visualizer": savImg},
+  {"REDD Labs Web": reddlabImg},
 ];
 
 class PorShown extends React.Component {

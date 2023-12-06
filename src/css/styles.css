@@ -135,7 +135,7 @@
 }
 
 .tail {
-  margin-top: 120px;
+  margin-top: 160px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -327,14 +327,14 @@ section p {
   display: flex;
   flex-direction: column;
   justify-content: end;
-  background-size: cover;
+  background-size: auto 100%;
+  background-position: center;
   background-image: linear-gradient(to top rgba(255, 255, 255, 0.164), rgba(252, 32, 32, 0.164));
+  transition: background-size 1s ease;
 }
 
 .project-card:hover {
-  background-repeat: no-repeat;
-  background-size: auto 110%;
-  transition: transform 1s;
+  background-size: auto 120%; 
 }
 
 .project-card > .btn {
