@@ -16,7 +16,7 @@ const TailBar = () => {
       <img src={top} alt="" className="top" onClick={scrollToTop} />
 
       <NavLink className="nav-tail-item" to="/">
-        © 2024 Dylan Sun
+          © {new Date().getFullYear()} Dylan Sun
       </NavLink>
       <div className="logo-block">
         <NavLink className="nav-tail-item" to={{pathname: "https://github.com/DylanSun003/"}} target="_blank">
