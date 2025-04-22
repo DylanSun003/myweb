@@ -39,8 +39,8 @@ class AboutBanner extends React.Component {
               responsible and good at communicating with others. I love teamworking with other.
             </p>
             <h2>Educational Background</h2>
-            <p>After three fulfilling years at community college, I earned the opportunity to transfer to UCLA, a university I had long admired. 
-              This transition marked a significant step in my educational journey, offering a chance to immerse myself in a rigorous academic environment and expand my horizons. 
+            <p>I’m incredibly grateful for the opportunity to study at UCLA, a university I had long admired. 
+              It marked a pivotal step in my educational journey, allowing me to immerse myself in a rigorous academic environment and broaden my perspective.
               Driven by an innate curiosity, I delved into Machine Learning and Web Application development during a summer break, captivated by their profound capabilities. 
               The prospect of harnessing technology to draw insights from past data and vividly present them through web interfaces was thrilling. 
               At UCLA, my enthusiasm for these innovative fields grew. I pursued a focused curriculum in data science and web development, keen to deepen my understanding and prepare for a future where I could contribute to the industry with these cutting-edge tools.</p>
